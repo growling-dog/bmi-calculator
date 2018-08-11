@@ -9,7 +9,7 @@ export class BmiProvider {
       return <BMI>{
         BMI: BMI.toFixed(2),
         classification: this.classifyBMI(BMI),
-      }
+      };
     }
 
     classifyBMI(BMI: number) {
